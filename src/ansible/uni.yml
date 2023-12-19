@@ -1,0 +1,11 @@
+- hosts: localhost #, fedora, ubuntu
+  vars:
+    foo: "bar"
+  vars_files:
+    - vars/Env.yml
+    - vars/debug.yml
+  roles:
+  - App
+  - .test Functions
+  - in:/container
+  - .test/start
