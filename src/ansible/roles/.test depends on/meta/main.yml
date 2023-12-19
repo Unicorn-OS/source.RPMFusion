@@ -1,3 +1,3 @@
 ---
 dependencies:
-  - { role: 'rpmfusion', when: ansible_os_family == 'RedHat' }
+  - { role: 'RPM Fusion', when: ansible_os_family == 'RedHat' }
